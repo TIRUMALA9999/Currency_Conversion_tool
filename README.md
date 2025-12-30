@@ -4,14 +4,12 @@
 ![CrewAI](https://img.shields.io/badge/CrewAI-Tooling-black)
 ![API](https://img.shields.io/badge/API-Currency%20Rates-green)
 
-**Target audience:** Recruiters / Hiring Managers  
-**Style:** Resume‑focused • Interview‑explainable • ATS‑friendly  
 
 This project demonstrates how to build a **tool‑augmented LLM agent** using **CrewAI** to perform **real‑time currency conversion** by calling an external exchange‑rate API.
 
 ---
 
-## Key highlights (30‑second recruiter summary)
+## Key highlights 
 
 - Built a **custom CrewAI tool** for live currency conversion using an external REST API.
 - Integrated the tool into an **LLM-powered agent** that decides when to call the API.
@@ -64,7 +62,7 @@ Currency_Conversion_tool-main/
 
 ### 1) Clone
 ```bash
-git clone https://github.com/<your-username>/Currency_Conversion_tool.git
+git clone https://github.com/TIRUMALA9999/Currency_Conversion_tool.git
 cd Currency_Conversion_tool
 ```
 
@@ -95,7 +93,7 @@ Open `notebook.ipynb` and run all cells.
 
 ---
 
-## Interview talking points
+## Points
 
 - “I implemented a **custom CrewAI tool** to fetch live currency rates instead of relying on static data.”
 - “This project shows how LLMs can **reason about when to call APIs** rather than hallucinating answers.”
@@ -104,15 +102,6 @@ Open `notebook.ipynb` and run all cells.
 
 ---
 
-## Possible extensions
-
-- Add support for historical exchange rates
-- Cache frequent conversions
-- Add error handling & retry logic
-- Convert notebooks into a CLI or FastAPI service
-- Add unit tests for the tool logic
-
----
 
 ## Author
 
